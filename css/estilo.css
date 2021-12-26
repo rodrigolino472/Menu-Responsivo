@@ -23,6 +23,7 @@ nav{
   text-transform: uppercase;
 }
 a{
+  font-style: italic;
   color: white;
   text-decoration: none;
   transition: .3;
