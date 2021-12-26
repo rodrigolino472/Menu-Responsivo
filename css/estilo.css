@@ -7,6 +7,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+html, body{
+  width: 100vw;
+  overflow-x: hidden;
+}
 nav{
   display: flex;
   justify-content: space-around;
@@ -30,7 +34,7 @@ a{
 }
 
 a:hover{
-  opacity: .7;
+  opacity: 0.7;
   cursor: pointer;
 }
 .mobile-menu{
@@ -41,7 +45,7 @@ a:hover{
   width: 32px;
   margin: 8px;
   height: 2px;
-  background-color: #ccc;
+  background-color: #fff;
   transition: 0.3s;
 }
 .nav-list{
